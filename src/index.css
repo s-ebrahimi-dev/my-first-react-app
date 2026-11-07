@@ -1,3 +1,70 @@
 @import "tailwindcss";
 
 
+@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;600;700;800;900&display=swap');
+
+.mobile-card {
+  font-family: 'Vazirmatn', sans-serif;
+  box-sizing: border-box;
+  direction: rtl;
+  isolation: isolate;
+}
+
+.mobile-card *,
+.mobile-card *::before,
+.mobile-card *::after {
+  box-sizing: border-box;
+}
+
+.mobile-card__cover {
+  background-color: #f4f4f2;
+}
+
+.mobile-card__cover-image {
+  object-position: center;
+}
+
+.mobile-card__title {
+  font-family: 'Vazirmatn', sans-serif;
+  letter-spacing: -0.45px;
+}
+
+.mobile-card__author-name {
+  letter-spacing: -0.3px;
+}
+
+.mobile-card__category {
+  transition: background-color 150ms ease;
+}
+
+.mobile-card__action {
+  padding: 0;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: opacity 150ms ease, transform 150ms ease;
+}
+
+.mobile-card__action:hover {
+  opacity: 0.75;
+}
+
+.mobile-card__action:active {
+  transform: scale(0.92);
+}
+
+.mobile-card__avatar-image {
+  display: block;
+  max-width: none;
+}
+
+@media (max-width: 340px) {
+  .mobile-card {
+    max-width: 100%;
+  }
+}
+
+
