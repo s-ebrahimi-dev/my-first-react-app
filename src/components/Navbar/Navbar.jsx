@@ -1,6 +1,6 @@
 function Navbar() {
   return (
-    <div>
+    <>
       <nav
         className="site-navbar fixed inset-x-0 top-0 z-50 bg-brand-green text-white shadow-sm"
         aria-label="ناوبری اصلی"
@@ -90,7 +90,7 @@ function Navbar() {
           </a>
         </div>
       </div>
-    </div>
+    </>
   );
 }
 
