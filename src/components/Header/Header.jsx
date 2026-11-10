@@ -74,6 +74,7 @@ function Header() {
             className="profile-section__portrait h-auto w-full"
             src="https://mjkhajeh.ir/holding/wp-content/uploads/2024/06/exp-cover.png"
             alt="تصویر مسعود صرامی"
+            loading="lazy"
           />
         </div>
       </div>

@@ -436,51 +436,7 @@ body {
   .stats-section__caption {
     font-size: 11px;
   }
-  .experience-section {
-    margin-top: 55px;
-    padding-bottom: 50px;
-  }
-  .experience-timeline::before {
-    right: 13px;
-  }
-  .experience-card {
-    grid-template-columns: 1fr;
-    gap: 8px;
-    margin-bottom: 22px;
-    padding-right: 34px;
-  }
-  .experience-card__content {
-    grid-column: 1;
-    grid-row: 1;
-    min-height: 132px;
-    padding: 17px 16px;
-  }
-  .experience-card__meta {
-    grid-column: 1;
-    grid-row: 2;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
-    gap: 7px;
-    padding-right: 4px;
-  }
-  .experience-card__title {
-    font-size: 14px;
-    margin-bottom: 9px;
-  }
-  .experience-card__description {
-    font-size: 12px;
-    line-height: 1.9;
-  }
-  .experience-card__dot {
-    right: 13px;
-    width: 13px;
-    height: 13px;
-  }
-  .experience-card::after {
-    right: 26px;
-    width: 8px;
-  }
+  
   .partner-strip {
     height: 52px;
   }
