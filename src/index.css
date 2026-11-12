@@ -58,9 +58,8 @@ body {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  gap: 9px;
   height: 51px;
-  padding: 0 25px;
+  padding: 0;
   border: 1px solid var(--gold);
   border-radius: 999px;
   color: var(--gold);
@@ -71,7 +70,7 @@ body {
 .site-navbar__login {
   background: var(--gold);
   color: white;
-  min-width: 168px;
+ width: 168px;
 }
 .site-navbar__toggle-line {
   width: 18px;

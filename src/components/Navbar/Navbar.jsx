@@ -1,3 +1,4 @@
+import Button from "../Button/Button";
 function Navbar() {
   return (
     <>
@@ -47,7 +48,7 @@ function Navbar() {
               🛒 <span>سبدخرید</span>
             </a>
             <a className="site-navbar__login" href="#">
-              ♙ <span>ورود/عضویت</span>
+             <Button isLogin = {false}  />
             </a>
           </div>
 
